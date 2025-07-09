@@ -131,8 +131,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
   position: relative;
-  padding: 126px 138px 0px 126px;
+  padding: 120px;
   border-radius: 15px;
   z-index: 1;
 }
@@ -218,4 +221,64 @@ body {
   font-size: 20px;
   font-weight: 700;
   margin-top: 45px;
+}
+
+/* coming soon section */
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.coming-part-one {
+  padding: 100px 0;
+}
+
+.coming-part-one h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.coming-part-one h3 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #070211;
+  padding-top: 16px;
+}
+
+.coming-part-one p {
+  font-size: 20px;
+  color: #070211;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.coming-part-two img {
+  height: 340px;
+  width: 340px;
+  padding: 30px;
+  border: 15px solid #ff0000;
+  border-radius: 100%;
+}
+
+.coming-part-three {
+  padding: 100px 0;
+}
+
+.coming-part-three h3 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ff0000;
+}
+
+.coming-part-three p {
+  font-size: 20px;
+  color: #070211;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.coming-part-three img {
+  padding-top: 40px;
 }
