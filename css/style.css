@@ -347,3 +347,91 @@ body {
   gap: 20px;
   margin-top: 50px;
 }
+
+/* subscribe section */
+.subscribe {
+  background-color: #fff2f2;
+  border-radius: 15px;
+  padding: 80px 212px;
+}
+
+.subscribe h3 {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 20px 0;
+}
+
+.subscribe p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.subscribe form {
+  margin-top: 48px;
+}
+
+.subscribe input[type="email"] {
+  height: 72px;
+  width: 450px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  color: #070211;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.subscribe input[type="submit"] {
+  height: 72px;
+  width: 190px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  color: #070211;
+  font-size: 18px;
+  background: #ff0000;
+  margin-left: -3px;
+}
+
+/* footer */
+footer {
+  background-color: #070211;
+  color: #ffffff;
+  padding: 100px 140px;
+}
+
+.ft-part-one {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact div {
+  display: flex;
+  margin-right: 15px;
+}
+
+.social-midea {
+  padding: 40px 0;
+}
+
+.social-midea ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-midea ul li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.copyright {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
